@@ -93,7 +93,7 @@ The script performs the following tasks:
 - **Data Analysis**: Analyzes crime incidents by category and clusters hotspots using KMeans or DBSCAN algorithms.
 - **Trend Analysis**: Analyzes trends in crime incidents over time.
 - **Preventive Measures**: Provides suggestions for preventive measures based on the analysis, like improving lighting or having more police patrols.
-The Python scripts `main.py` and `main1.py` handle data loading, geocoding, modification, and replacement. They work in conjunction with the frontend interface to provide a seamless user experience.
+- The Python scripts `main.py` and `main1.py` handle data loading, geocoding, modification, and replacement. They work in conjunction with the frontend interface to provide a seamless user experience.
 
 ## Contributors
 
