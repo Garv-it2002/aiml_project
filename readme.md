@@ -16,6 +16,7 @@ NeuralShield is a groundbreaking crime prevention platform that leverages cuttin
   - [System Requirements](#system-requirements)
   - [Installation](#installation)
   - [Running the Script](#running-the-script)
+- [Frontend Code](#frontend-code)
 - [Code Explanation](#code-explanation)
 - [Contributors](#contributors)
 
@@ -79,6 +80,10 @@ The tool does the following:
 2. **Follow Instructions**: The tool will guide you through the process, asking for information like the name of the city or district you want to analyze.
 3. **View Results**: Once the tool finishes running, it will show maps and charts with the analysis results, helping you understand crime in your area better.
 
+## Frontend Code
+
+The frontend interface (`index.html` and `success.html`) allows users to input crime-related information and view success messages along with geocoded coordinates.
+
 ## Code Explanation
 
 The script performs the following tasks:
@@ -88,6 +93,7 @@ The script performs the following tasks:
 - **Data Analysis**: Analyzes crime incidents by category and clusters hotspots using KMeans or DBSCAN algorithms.
 - **Trend Analysis**: Analyzes trends in crime incidents over time.
 - **Preventive Measures**: Provides suggestions for preventive measures based on the analysis, like improving lighting or having more police patrols.
+The Python scripts `main.py` and `main1.py` handle data loading, geocoding, modification, and replacement. They work in conjunction with the frontend interface to provide a seamless user experience.
 
 ## Contributors
 
