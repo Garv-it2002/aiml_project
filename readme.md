@@ -18,7 +18,6 @@ NeuralShield is a groundbreaking crime prevention platform that leverages cuttin
   - [Running the Script](#running-the-script)
 - [Code Explanation](#code-explanation)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## Introduction
 
@@ -93,7 +92,3 @@ The script performs the following tasks:
 ## Contributors
 
 - Team Ambition
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
